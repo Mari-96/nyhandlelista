@@ -32,18 +32,35 @@ input, button{
   border-width: .5px;
 }
 
-ul li{
-  background-color: #07575b;
-  list-style: none;
-  display: block;
-  margin-left: -20px;
-  margin-right: 20px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 25px;
-  color: white;
+li {
+    position: relative;
+    display: block;
+    list-style: none;
+    background-color: #113355;
+    margin-bottom: 5px;
+    padding: 8px;
+    font-size: 1.2em;
+    border-radius: 3px;
+    color: white;
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
 }
+
+
+.slett {
+
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+    font-weight: 100;
+    font-size: 1em;
+    margin-left: 30px;
+    opacity: .4;
+
+  }
 
 ul{
   padding-top: 10px;
@@ -59,6 +76,13 @@ input{
   margin-top: 30px;
 }
 
+
+
+.slett:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 /*****MEDIA*****/
 @media screen and (min-width: 0px) and (max-width:550px){
 
@@ -67,6 +91,6 @@ input{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
   }
 }
