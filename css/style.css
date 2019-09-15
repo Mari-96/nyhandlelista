@@ -58,3 +58,15 @@ input{
   font-size: 15px;
   margin-top: 30px;
 }
+
+/*****MEDIA*****/
+@media screen and (min-width: 0px) and (max-width:550px){
+
+  .liste{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}
