@@ -1,0 +1,60 @@
+/*****BODY*****/
+body{
+  background-color: #c4dfe6;
+
+}
+
+/*****MAIN*****/
+main{
+
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+input, button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.liste{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#66a5ad;
+  border-radius: 20%;
+  border-style: solid;
+  border-color: grey;
+  border-width: .5px;
+}
+
+ul li{
+  background-color: #07575b;
+  list-style: none;
+  display: block;
+  margin-left: -20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+ul{
+  padding-top: 10px;
+}
+
+button{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input{
+  font-size: 15px;
+  margin-top: 30px;
+}
