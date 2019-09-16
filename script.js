@@ -68,3 +68,11 @@ function lagreListe() {
     }
   }
     tekstFelt.value = "";
+
+    document.addEventListener("keyup", function (event) {
+      var x = event.keyCode;
+      if(x === 13){
+        leggTilListe();
+      }
+
+    });
